@@ -1,7 +1,9 @@
 const path = require("path");
 
 function pwd() {
-  console.log(__dirname);
+  console.log(path.resolver("."));
+}
+// Ou   console.log(__dirname);
 }
 pwd();
 

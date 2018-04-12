@@ -7,12 +7,23 @@ const person = {
   firstname: "Abdel",
   lastname: "Sadki",
   age: 42,
+
+  growOlder: function() {
+    this.age = this.age + 1;
+  },
+
   fullname: function() {
     return `${this.firstname} ${this.lastname}`;
   },
+
   introduceMyself: function() {
-    // Your code here
+    return `Hello! I'm ${this.fullname()} and I'm ${this.age}`;
   }
 };
+
+console.log(person.introduceMyself());
+console.log(person.fullname());
+console.log(person.introduceMyself());
+
 
 module.exports = person;

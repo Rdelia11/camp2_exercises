@@ -5,18 +5,16 @@
 
 const path = require("path");
 const fs = require ("fs");
-const dede = "/Users/Remi/Workspace/camp2_exercises/02_programming_fundamentals/07_file_management/01_basic_fs/TEST1"
+const pathTest = "/Users/Remi/Workspace/camp2_exercises/02_programming_fundamentals/07_file_management/01_basic_fs/TOTO/toto"
 
-function deleteFile(path) {
+
+function deleteFile (path) {
   fs.unlink(path, error => {
     if (error) {
       console.warn(error);
       return;
     }
-
-    console.log("File deleted!");
-  });
+    console.log("congrats file is delete");
+ });
 }
-deleteFile(dede);
-
-module.exports = deleteFile
+deleteFile(pathTest);
