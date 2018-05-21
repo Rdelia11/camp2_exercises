@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8" />
+    <title>Welcome Page</title>
+  </head>
+  <body>
+    <h1>My three favorites animals</h1>
+
+    <ol>
+      <li>
+        <li>Dog</li>
+        <img src="https://www.google.fr/search?q=image+akitainu&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjz64uupeXaAhWPZlAKHQWWBgUQ_AUICigB&biw=1440&bih=803#imgrc=4LmxRdFAlkwX8M:"/>
+      </li>
+      <li>
+        <li>Felines</li>
+        <img src="https://www.google.fr/search?q=image+felins&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiQoKLopeXaAhXPI1AKHQerDnMQ_AUICigB#imgrc=5HlzuKP99eLA3M:"/>
+      </li>
+      <li>
+        <li>Cat</li>
+        <img src="https://www.google.fr/search?q=image+chat&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjhiYG7puXaAhXSKFAKHVsDDSQQ_AUICigB&biw=1440&bih=803#imgrc=uJfkYYGFySoVWM:"/>
+      </li>
+
+     <div>
+       <a href="https://www.lepal.com">My Favorite website about real animals</a>
+     </div>
+    </ol>
+  </body>
+</html>
