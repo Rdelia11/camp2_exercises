@@ -9,7 +9,7 @@ function go(options) {
 
 go({ speed: 5 });
 
-function lastIndexOf(arr, elt, start) {
+function lastIndexOf(arr, elt, start = arr.length = -1) {
   for (let i = start - 1; i >= 0; i--) {
     if (arr[i] === elt) {
       return i;
